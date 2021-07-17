@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Touch</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide ONE</h3> 
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum cubilia cras varius platea fringilla viverra eros primis et, a elementum cubilia sapien metus amet posuere cras tortor, eu integer fames vitae pellentesque nec aliquam aliquet vel.
+                        </p>
+                        <a href="#">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide TWO</h3> 
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum cubilia cras varius platea fringilla viverra eros primis et, a elementum cubilia sapien metus amet posuere cras tortor, eu integer fames vitae pellentesque nec aliquam aliquet vel.
+                        </p>
+                        <a href="#">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide THREE</h3> 
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum cubilia cras varius platea fringilla viverra eros primis et, a elementum cubilia sapien metus amet posuere cras tortor, eu integer fames vitae pellentesque nec aliquam aliquet vel.
+                        </p>
+                        <a href="#">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide FOR</h3> 
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum cubilia cras varius platea fringilla viverra eros primis et, a elementum cubilia sapien metus amet posuere cras tortor, eu integer fames vitae pellentesque nec aliquam aliquet vel.
+                        </p>
+                        <a href="#">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="card">
+                    <div class="sliderText">
+                        <h3>Slide FIVE</h3> 
+                    </div>
+                    <div class="content">
+                        <p>Lorem ipsum cubilia cras varius platea fringilla viverra eros primis et, a elementum cubilia sapien metus amet posuere cras tortor, eu integer fames vitae pellentesque nec aliquam aliquet vel.
+                        </p>
+                        <a href="#">Mais Informações</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 30,
+            stretch: 0,
+            depth: 1000,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+        });
+      </script>
+</body>
+</html>
