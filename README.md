@@ -1,4 +1,4 @@
 # frontend-projetos
 Exercícios utilizando apenas HTML, CSS e JS
 
-Basta apenas clonar o repositorio e abrir o index.html para a vizualição das atividades
+Acesse aqui https://eikecaina.github.io/frontend-projetos/index.html ou clone o repositório.
