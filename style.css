@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card {
+    width: 18rem;
+}
+
+.container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 1330px!important;
+    justify-content: center;
+}
+.card {
+    margin: 1vw;
+    color: white;
+}
+.container-fluid {
+    margin: 0 100px!important;
+}
+.img-card {
+    object-fit: cover;
+    height: 25vh;
+}
