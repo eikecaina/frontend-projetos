@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.logo {
+    object-fit: cover;
+    border-radius: 90px;
+    height: 80px;
+    display: contents;
+}
+
+.social-icon {
+    height: 36px;
+}
+
+.header {
+    margin: 0 7vw;
+}
+
+.carousel-img {
+    object-position: 0 43%;
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+}
+
+.promo-banner {
+    height: 9vh;
+}
+
+.text-banner {
+    height: 6vh;
+}
+
+.card {
+    margin: 0 20px 20px;
+}
+.container {
+    margin-top: 4vh;
+}
+
+.btn {
+    background: rgb(236,113,113);
+    background: linear-gradient(90deg, rgba(236,113,113,1) 16%, rgba(30,96,164,1) 100%);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 80%;
+}
+
+@media (min-width: 801px) {
+    .logo {
+        margin: 0 20px 0 0;
+    }
+
+    .carousel-img {
+        height: 40vh;
+    }
+}
